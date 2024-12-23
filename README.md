@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Tcl: incorrect syntax in the `if` statement.  The `badproc` procedure is flawed because it's missing curly braces around the `then` and `else` blocks.  The solution shows how to correct this.  The `if` statement must be structured as `if {condition} {then-branch} {else-branch}`.
